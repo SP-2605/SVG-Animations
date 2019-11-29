@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+/* #laptop-girl{
+    animation: girl 1s ease infinite alternate;
+} */
+
+#right_vapour-big{
+    animation: vapour 1.5s ease-in-out infinite alternate;
+}
+
+#right_vapour-small{
+    animation: vapour 1.8s ease-in-out infinite alternate;
+}
+
+#left_flower-ball{
+    animation: ball 1s ease-in-out infinite alternate;
+}
+
+#left_petal-red{
+    animation: petal-red 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-style: flat;
+}
+
+#left_petal-black{
+    animation: petal-black 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-style: flat;
+
+}
+
+#left_line-1{
+    animation: line-1 2s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+} 
+#left_line-2{
+    animation: line-2 2.1s ease-in-out infinite;
+    transform-style: flat;
+} 
+#left_line-3{
+    animation: line-3 2.2s ease-in-out infinite;
+    transform-style: flat;
+
+}
+
+#right_line-1 {
+    animation: rline-1 2s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+}
+
+#right_line-2 {
+    animation: rline-2 2.1s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#right_line-3 {
+    animation: rline-3 2.2s ease-in-out infinite;
+    transform-style: flat;
+
+}
+
+#right_checkbox-3{
+    animation: check-3 2.2s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#right_checkbox-2 {
+    animation: check-2 2.1s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#right_checkbox-1 {
+    animation: check-1 2s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#left_checkcircle-1{
+    animation: check-1 2s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#left_checkcircle-2{
+    animation: check-2 2.1s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#left_checkcircle-3{
+    animation: check-3 2.2s ease-in-out infinite;
+    transform-style: flat;
+}
+
+#right_cup{
+    animation: sqeeze .5s ease-in-out infinite alternate ;
+    transform-style: flat;
+}
+
+#girl-hair{
+    animation: hair 1s ease-in-out infinite alternate;
+}
+
+@keyframes hair {
+    0% {
+        transform: skewX(0deg);
+    }
+
+    50% {
+        transform: skewX(2deg);
+    }
+
+    70% {
+        transform: skewX(-1deg);
+    }
+
+    60% {
+        transform: skewX(0deg);
+    }
+
+}
+
+
+@keyframes sqeeze{
+    0%{
+       transform: skewX(0deg);
+    }
+
+    50% {
+       transform: skewX(.1deg);
+    }
+
+    70%{
+        transform: skewX(-.1deg);
+    }
+
+    60% {
+        transform: skewX(0deg);
+    }
+
+}
+
+@keyframes check-3{
+    from{
+        transform: scaleX(0%);
+        opacity: 0;
+    }
+
+    to{
+        transform: scaleX(10%);
+        opacity: 1;
+    }
+}
+
+@keyframes check-2 {
+    from {
+        transform: scaleX(0%);
+        opacity: 0;
+    }
+
+    to {
+        transform: scaleX(10%);
+        opacity: 1;
+    }
+}
+
+@keyframes check-1 {
+    from {
+        transform: scaleX(0%);
+        opacity: 0;
+    }
+
+    to {
+        transform: scaleX(10%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes girl{
+    from{
+        transform: translateX(0%);
+    }
+
+    to{
+        transform: translateX(.5%);
+    }
+}
+
+
+@keyframes vapour{
+    from{
+        transform: translateZ(-7%);
+        opacity:1;
+    }
+
+    to{
+        transform: translateZ(1%);
+        opacity: 0;
+    }
+}
+
+@keyframes ball{
+    from{
+        transform: translateY(-1%);
+    }
+
+    to{
+         transform: translateY(3%);
+    }
+}
+
+@keyframes petal-red {
+    /* from {
+        transform: rotateX(14deg);
+    }
+
+    to {
+        transform: rotateX(0deg);
+    } */
+
+    0% {
+        transform: skewX(0deg);
+    }
+
+    50% {
+        transform: skewX(.4deg);
+    }
+
+    70% {
+        transform: skewX(-.4deg);
+    }
+
+    60% {
+        transform: skewX(0deg);
+    }
+}
+
+@keyframes petal-black{
+    /* from {
+        transform: rotateX(14deg);
+    }
+
+    to {
+        transform: rotateX(0deg);
+    } */
+
+    0% {
+        transform: skewX(0deg);
+    }
+
+    50% {
+        transform: skewX(.4deg);
+    }
+
+    70% {
+        transform: skewX(-.4deg);
+    }
+
+    60% {
+        transform: skewX(0deg);
+    }
+}
+
+@keyframes line-1{
+    from{
+        transform: translateX(1%);
+        opacity: 1;
+    }
+
+    to{
+        transform: translateX(-7%);
+        opacity: 0;
+    }
+}
+
+@keyframes line-2 {
+    from {
+        transform: translateX(1%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(-7%);
+        opacity: 0;
+    }
+}
+
+@keyframes line-3 {
+    from {
+        transform: translateX(1%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(-7%);
+        opacity: 0;
+    }
+}
+
+@keyframes rline-1 {
+    from {
+        transform: translateX(1%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(7%);
+        opacity: 0;
+    }
+}
+
+@keyframes rline-2 {
+    from {
+        transform: translateX(1%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(7%);
+        opacity: 0;
+    }
+}
+
+@keyframes rline-3 {
+    from {
+        transform: translateX(1%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(7%);
+        opacity: 0;
+    }
+}
