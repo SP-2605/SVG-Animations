@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#boy{
+    z-index: 1;
+}
+
+#clock-hand{
+    animation: clock-hand 1.5s ease-in-out infinite;
+    transform-origin:bottom;
+    transform-box: fill-box;
+    transform-style: flat;
+}
+
+#hand{
+    animation: hand .2s ease infinite;
+}
+
+#laptop{
+    animation: laptop .2s ease-in-out infinite;
+    transform-origin: center;
+    transform-style: flat;
+}
+
+#petals{
+    animation: petals 3s ease-in-out infinite alternate;
+    fill: #D0CDE1;
+}
+
+#logo-main{
+    animation: logo .1s ease-in-out infinite alternate;
+    fill: #D0CDE1;
+}
+
+#logo-sec{
+    animation: logo-sec .1s ease-in-out infinite alternate;
+    stroke: #D0CDE1;
+}
+
+@keyframes logo-sec {
+    0% {
+        stroke: #CD6155;
+        transform: translateX(0%);
+    }
+
+    100% {
+        stroke: #F1C40F;
+        transform: translateX(0.2%);
+    }
+}
+
+
+@keyframes logo {
+    0% {
+        fill: #CD6155;
+        transform: translateX(0%);
+    }
+    100% {
+        fill: #F1C40F;
+        transform: translateX(0.2%);
+    }
+}
+
+
+@keyframes petals {
+    0% {
+       fill:#CD6155;
+    }
+
+    30%{
+        fill: #F1948A;
+    }
+
+    50% {
+       fill:#5499C7;
+    }
+
+    70% {
+        fill: #21618C;
+    }
+
+    100% {
+       fill: #F1C40F;
+    }
+}
+
+
+@keyframes laptop{
+    0%{
+       transform: translateX(0%);
+    }
+
+    50%{
+        transform: translateX(.2%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+@keyframes clock-hand{
+    from{
+        transform: rotateZ(0deg);
+    }
+
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes hand {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-0.2%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
