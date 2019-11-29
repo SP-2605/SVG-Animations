@@ -46,6 +46,20 @@ body{
     stroke: #D0CDE1;
 }
 
+#hair{
+    animation: hair 2s ease-in-out infinite alternate;
+}
+
+@keyframes hair{
+    form{
+        transform: translateY(0%);
+    }
+
+    to{
+        transform: translateY(1%);
+    }
+}
+
 @keyframes logo-sec {
     0% {
         stroke: #CD6155;
