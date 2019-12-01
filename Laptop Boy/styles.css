@@ -1,135 +1,291 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 62.5%;
     text-align: center;
     margin: 20px;
     margin-top: 50px;
 }
 
-.google{
+.google {
+    animation: google 3s ease-in-out infinite;
     height: 3rem;
-    width:3rem;
+    width: 3rem;
     position: relative;
+    top: 10rem;
     right: 25rem;
 }
 
-.angular{
+.angular {
+    animation: laptop-stickers .2s ease-in-out infinite;
     height: 3rem;
-    width:3rem;
+    width: 3rem;
+    position: relative;
+    /* top: 40rem;
+    left: 20rem; */
+    top: 40rem;
+    left: 18rem;
+}
+
+.atom {
+    animation: atom 3s ease-in-out infinite;
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 32rem;
+    right: 42rem;
+}
+
+.docker {
+    animation: docker 10s ease-in-out infinite;
+    transform-style: flat;
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 31rem;
+    right: 24rem;
+}
+
+.figma {
+    animation: laptop-stickers .2s ease-in-out infinite;
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 40rem;
+    right: 9rem;
+    /* top: 40rem;
+    right: 8rem; */
+}
+
+.html5 {
+    animation:html 3s ease-in-out infinite;
+    height: 3rem;
+    width: 3rem;
     position: relative;
     top: 10rem;
-    left:50rem;
+    left: 36rem;
 }
-.atom{
+
+.javascript {
+    animation: laptop-stickers .2s ease-in-out infinite;
     height: 3rem;
-    width:3rem;
+    width: 3rem;
     position: relative;
-    top:20rem;
-    left:;
-    right:30rem;
-    bottom:;
+    top: 30rem;
+    right: 12rem;
+    /* top: 30rem;
+    right: 14rem; */
 }
-.docker{
+
+.cplusplus {
+    animation:cplus 3s ease-in-out infinite;
     height: 3rem;
-    width:3rem;
+    width: 3rem;
     position: relative;
-    top:
-    left:
-    right:
-    bottom:
+    top: 31rem;
+    left: 20rem;
 }
-.figma{
+
+.codio {
+    animation:laptop-stickers .2s ease-in-out infinite;
     height: 3rem;
-    width:3rem;
+    width: 3rem;
     position: relative;
-    top:
-    left:
-    right:
-    bottom:
+    top: 30rem;
+    right: -5rem;
+    /* top: 30rem;
+    right: 2rem; */
 }
-.html5{
-    height: 3rem;
-    width:3rem;
-    position: relative;
-    top:
-    left:
-    right:
-    bottom:
-}
-.javascript{
-    height: 3rem;
-    width:3rem;
-    position: relative;
-    top:
-    left:
-    right:
-    bottom:
-}
-.cplusplus{
-    height: 3rem;
-    width:3rem;
-    position: relative;
-    top:
-    left:
-    right:
-    bottom:
-}
-.codio{
-    height: 3rem;
-    width:3rem;
-    position: relative;
-    top:
-    left:
-    right:
-    bottom:
-}
-#clock-hand{
+
+#clock-hand {
     animation: clock-hand 1.5s ease-in-out infinite;
-    transform-origin:bottom;
+    transform-origin: bottom;
     transform-box: fill-box;
     transform-style: flat;
 }
 
-#hand{
+#hand {
     animation: hand .2s ease infinite;
 }
 
-#laptop{
+#laptop {
     animation: laptop .2s ease-in-out infinite;
     transform-origin: center;
     transform-style: flat;
 }
 
-#petals{
+#petals {
     animation: petals 3s ease-in-out infinite alternate;
     fill: #D0CDE1;
 }
 
-#logo-main{
+#logo-main {
     animation: logo .1s ease-in-out infinite alternate;
     fill: #D0CDE1;
 }
 
-#logo-sec{
+#logo-sec {
     animation: logo-sec .1s ease-in-out infinite alternate;
     stroke: #D0CDE1;
 }
 
-#hair{
+#hair {
     animation: hair 2s ease-in-out infinite alternate;
 }
 
-@keyframes hair{
-    form{
+@keyframes html {
+    0% {
+        top: 10rem;
+        left: 36rem;
+    }
+
+    34% {
+        top: 31rem;
+        left: 26rem;
+
+    }
+
+    67% {
+        top: 31rem;
+        left: 45rem;
+    }
+
+    100% {
+        top: 10rem;
+        left: 36rem;
+    }
+}
+
+
+@keyframes cplus {
+    0% {
+        top: 31rem;
+        left: 20rem;
+    }
+
+    34% {
+        top: 31rem;
+        left: 40rem;
+
+    }
+
+    67% {
+        top: 10rem;
+        left: 30rem;
+    }
+
+    100% {
+        top: 31rem;
+        left: 20rem;
+    }
+}
+
+
+@keyframes docker {
+    0% {
+        top: -2rem;
+        right: 53rem;
+    }
+
+    25% {
+        transform: rotateZ(-90deg);
+        top: 50rem;
+        right: 53rem;
+    }
+
+    50%{
+        transform: rotate(-180deg);
+        top: 50rem;
+        right: -59rem;
+    }
+
+    75%{
+        transform: rotateZ(-270deg);
+        top: -2rem;
+        right: -59rem;
+    }
+
+    100%{
+        transform: rotateZ(-360deg);
+        top: -2rem;
+        right: 53rem;
+    }
+
+   
+}
+
+
+@keyframes atom {
+    0% {
+        top: 32rem;
+        right: 41rem;
+
+    }
+
+    34% {
+        top: 31rem;
+        right: 20rem;
+    }
+
+    67% {
+        top: 10rem;
+        right: 30rem;
+    }
+
+    100% {
+        top: 32rem;
+        right: 41rem;
+    }
+}
+
+@keyframes google {
+    0% {
+        top: 10rem;
+        right: 25rem;
+    }
+
+    34% {
+        top: 32rem;
+        right: 34rem;
+
+    }
+
+    67% {
+        top: 31rem;
+        right: 15rem;
+    }
+
+    100% {
+        top: 10rem;
+        right: 25rem;
+    }
+}
+
+@keyframes laptop-stickers {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(5%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+@keyframes hair {
+    form {
         transform: translateY(0%);
     }
 
-    to{
+    to {
         transform: translateY(1%);
     }
 }
@@ -152,6 +308,7 @@ body{
         fill: #CD6155;
         transform: translateX(0%);
     }
+
     100% {
         fill: #F1C40F;
         transform: translateX(0.2%);
@@ -161,15 +318,15 @@ body{
 
 @keyframes petals {
     0% {
-       fill:#CD6155;
+        fill: #CD6155;
     }
 
-    30%{
+    30% {
         fill: #F1948A;
     }
 
     50% {
-       fill:#5499C7;
+        fill: #5499C7;
     }
 
     70% {
@@ -177,32 +334,32 @@ body{
     }
 
     100% {
-       fill: #F1C40F;
+        fill: #F1C40F;
     }
 }
 
 
-@keyframes laptop{
-    0%{
-       transform: translateX(0%);
+@keyframes laptop {
+    0% {
+        transform: translateX(0%);
     }
 
-    50%{
+    50% {
         transform: translateX(.2%);
     }
 
-    100%{
+    100% {
         transform: translateX(0%);
     }
 }
 
 
-@keyframes clock-hand{
-    from{
+@keyframes clock-hand {
+    from {
         transform: rotateZ(0deg);
     }
 
-    to{
+    to {
         transform: rotateZ(360deg);
     }
 }
@@ -216,9 +373,7 @@ body{
         transform: translateX(-0.2%);
     }
 
-    100%{
+    100% {
         transform: translateX(0%);
     }
 }
-
-
