@@ -5,15 +5,89 @@
 }
 
 body{
+    font-size: 62.5%;
     text-align: center;
     margin: 20px;
     margin-top: 50px;
 }
 
-#boy{
-    z-index: 1;
+.google{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    right: 25rem;
 }
 
+.angular{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top: 10rem;
+    left:50rem;
+}
+.atom{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:20rem;
+    left:;
+    right:30rem;
+    bottom:;
+}
+.docker{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:
+    left:
+    right:
+    bottom:
+}
+.figma{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:
+    left:
+    right:
+    bottom:
+}
+.html5{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:
+    left:
+    right:
+    bottom:
+}
+.javascript{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:
+    left:
+    right:
+    bottom:
+}
+.cplusplus{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:
+    left:
+    right:
+    bottom:
+}
+.codio{
+    height: 3rem;
+    width:3rem;
+    position: relative;
+    top:
+    left:
+    right:
+    bottom:
+}
 #clock-hand{
     animation: clock-hand 1.5s ease-in-out infinite;
     transform-origin:bottom;
