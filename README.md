@@ -1,5 +1,5 @@
 # SVG-Animations
-* Anyone can contribute to this repository, and unleash your creative skills.
+* Feel free to contribute, and unleash your creative skills.
 ## Resources and Tools Used:
 * https://undraw.co/
 * Figma for editing and importing SVG's.
