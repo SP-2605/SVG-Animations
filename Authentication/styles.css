@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    text-align: center;
+    position: relative;
+    top: 5rem;
+}
+
+#lock{
+    animation: lock 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+    transform-style: flat;
+}
+
+#password-1{
+    animation: password .5s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-2 {
+    animation: password .6s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-3 {
+    animation: password .7s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-4 {
+    animation: password .8s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-5 {
+    animation: password .9s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-6 {
+    animation: password 1s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-7 {
+    animation: password 1.1s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-8 {
+    animation: password 1.2s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-9 {
+    animation: password 1.3s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-10 {
+    animation: password 1.4s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+#password-11 {
+    animation: password 1.5s ease-in-out infinite;
+    transform-style: flat;
+    transform-origin: center;
+
+}
+
+@keyframes password {
+
+    from{
+        opacity: 0;
+        transform: scaleY(0%);
+    }
+
+    to{
+        opacity: 1;
+        transform: scaleY(20%);
+    }
+}
+
+@keyframes lock{
+    from{
+        transform: rotateZ(0deg);
+    }
+
+    to{
+        transform: rotateZ(360deg);
+    }
+}
