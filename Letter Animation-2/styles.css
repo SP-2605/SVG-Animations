@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(32, 35, 48);
+}
+
+#beacon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 4.5s;
+}
+
+#beacon path:nth-child(1){
+    stroke-dasharray: 1416.0894775390625;
+    stroke-dashoffset: 1416.0894775390625;
+    animation: line-anime 3s ease forwards;
+}
+
+#beacon path:nth-child(2){
+    stroke-dasharray: 1077.3077392578125;
+    stroke-dashoffset: 1077.3077392578125;
+    animation: line-anime 3s ease forwards 0.3s;
+
+}
+
+#beacon path:nth-child(3){
+    stroke-dasharray: 1135.7276611328125;
+    stroke-dashoffset: 1135.7276611328125;
+    animation: line-anime 3s ease forwards 0.6s;
+
+}
+
+#beacon path:nth-child(4){
+    stroke-dasharray: 1181.05224609375;
+    stroke-dashoffset: 1181.05224609375;
+    animation: line-anime 3s ease forwards 0.9s;
+
+}
+
+#beacon path:nth-child(5){
+    stroke-dasharray: 1313.001220703125;
+    stroke-dashoffset: 1313.001220703125;
+    animation: line-anime 3s ease forwards 1.3s;
+
+}
+
+#beacon path:nth-child(6){
+    stroke-dasharray: 1397.994384765625;
+    stroke-dashoffset: 1397.994384765625;
+    animation: line-anime 3s ease forwards 1.6s;
+
+}
+
+@keyframes line-anime{
+    to{
+    stroke-dashoffset:0;
+    }
+}
+
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: #fff;
+    }
+}
