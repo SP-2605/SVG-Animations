@@ -15,7 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fill 0.5s ease forwards 4.5s;
+    animation: fill 0.5s ease forwards 4.2s;
 }
 
 #beacon path:nth-child(1){
