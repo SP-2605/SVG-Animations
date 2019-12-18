@@ -15,50 +15,51 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: fill 0.5s ease-in-out 4.5s forwards;
 }
 
 /* the below depends on the number of letters */
 
 
+#logo path:nth-child(1) {
+    stroke-dasharray: 1080.7359619140625;
+    stroke-dashoffset: 1080.7359619140625;
+    animation: line 3s ease forwards;
+}
 #logo path:nth-child(2) {
-    stroke-dasharray: 780px;
-    stroke-dashoffset: 780px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray:881.4478759765625;
+    stroke-dashoffset:881.4478759765625;
+    animation: line 3s ease forwards 0.3s;
 }
 #logo path:nth-child(3) {
-    stroke-dasharray: 630px;
-    stroke-dashoffset: 630px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray: 939.4486694335938;
+    stroke-dashoffset: 939.4486694335938;
+    animation: line 3s ease forwards 0.6s;
 }
 #logo path:nth-child(4) {
-    stroke-dasharray: 680px;
-    stroke-dashoffset: 680px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray: 424.0081481933594;
+    stroke-dashoffset: 424.0081481933594;
+    animation: line 3s ease forwards 0.9s;
 }
 #logo path:nth-child(5) {
-    stroke-dasharray: 690px;
-    stroke-dashoffset: 690px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray: 1209.0682373046875;
+    stroke-dashoffset: 1209.0682373046875;
+    animation: line 3s ease forwards 1.2s;
 }
 #logo path:nth-child(6) {
-    stroke-dasharray: 863px;
-    stroke-dashoffset: 863px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray: 1132.2716064453125;
+    stroke-dashoffset: 1132.2716064453125;
+    animation: line 3s ease forwards 1.5s;
 }
 #logo path:nth-child(7) {
-    stroke-dasharray: 830px;
-    stroke-dashoffset: 830px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray: 881.4415283203125;
+    stroke-dashoffset: 881.4415283203125;
+    animation: line 3s ease forwards 1.8s;
 }
 #logo path:nth-child(8) {
-    stroke-dasharray: 840px;
-    stroke-dashoffset: 840px;
-    animation: line 2s ease-out infinite forwards;
-}
-#logo path:nth-child(9) {
-    stroke-dasharray: 690px;
-    stroke-dashoffset: 690px;
-    animation: line 2s ease-out infinite forwards;
+    stroke-dasharray: 1036.97900390625;
+    stroke-dashoffset: 1036.97900390625;
+    animation: line 3s ease forwards 2.1s;
 }
 
 
@@ -66,5 +67,15 @@ body{
     to{
         stroke-dashoffset: 0;
 
+    }
+}
+
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+
+    to{
+        fill: orange;
     }
 }
